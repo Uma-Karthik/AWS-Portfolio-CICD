@@ -5,7 +5,7 @@ A cloud-native personal portfolio website hosted on **AWS S3** with a fully auto
 ---
 
 ## 📌 Architecture Overview
-<img width="1053" height="615" alt="Screenshot 2026-07-31 173029" src="https://github.com/user-attachments/assets/ae5574f5-9481-41c6-a519-5a0daf738e7e" />
+<img width="1021" height="622" alt="Screenshot 2026-07-31 173304" src="https://github.com/user-attachments/assets/b27d1916-2846-4d97-9ccc-36df4baead18" />
 
 
 ✨ Key Features
