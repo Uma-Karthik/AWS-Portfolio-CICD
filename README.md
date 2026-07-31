@@ -5,26 +5,8 @@ A cloud-native personal portfolio website hosted on **AWS S3** with a fully auto
 ---
 
 ## 📌 Architecture Overview
+<img width="1053" height="615" alt="Screenshot 2026-07-31 173029" src="https://github.com/user-attachments/assets/ae5574f5-9481-41c6-a519-5a0daf738e7e" />
 
-```text
-[ Developer ]
-      │
-      ▼ (Git Push)
-┌───────────────────────┐
-│     GitHub Repo       │
-└───────────┬───────────┘
-            │
-            ▼ (Triggers Workflow)
-┌───────────────────────┐
-│    GitHub Actions     │ (Builds & Syncs Web Assets)
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│     AWS S3 Bucket     │ ────► [ End Users / Web Browser ]
-│ (Static Web Hosting)  │
-└───────────────────────┘
-```
 
 ✨ Key Features
 ⚡Direct S3 Hosting: Fast, lightweight static website hosting using AWS S3.
