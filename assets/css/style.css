@@ -799,7 +799,7 @@ flex-wrap:wrap;
     flex-wrap:wrap;
 }
 
-.project-btn{
+.project-links a{
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -815,21 +815,19 @@ flex-wrap:wrap;
     font-size:15px;
     font-weight:600;
 
+    text-decoration:none;
+
     transition:.3s;
 }
 
-.project-btn:hover{
-
+.project-links a:hover{
     transform:translateY(-4px);
 
     box-shadow:0 12px 25px rgba(56,189,248,.30);
-
 }
 
-.project-btn i{
-
+.project-links a i{
     font-size:17px;
-
 }
 
 /*================ RESPONSIVE ================*/
